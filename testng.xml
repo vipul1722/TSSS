@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  <test name="Refertofriend">
+	 <classes>
+	   <class name="Dewsolutions.TSSS.Friends"/>
+	 </classes>
+   </test>
+   
+  <test name="Login for all user types" parallel="methods">
+     <classes>
+       <class name="Dewsolutions.TSSS.Login"/>
+     </classes>
+      </test>
+      
+      <test name="Edit profile" parallel="methods">
+     <classes>
+       <class name="Dewsolutions.TSSS.Editprofile"/>
+     </classes>
+      </test>
+      
+      <test name="Case for Fnf"  parallel="methods">
+     <classes>
+       <class name="Dewsolutions.TSSS.Negativetestcase"/>
+     </classes>
+      </test>
+      <test name="Refer to employee"  parallel="methods">
+     <classes>
+       <class name="Dewsolutions.TSSS.Employeerefer"/>
+     </classes>
+      </test>
+      <test name="Mgm page negative case"  parallel="methods">
+     <classes>
+       <class name="Dewsolutions.TSSS.MgmNegative"/>
+     </classes>
+      </test>
+     <test name="New user sign up"  parallel="methods">
+     <classes>
+       <class name="Dewsolutions.TSSS.NewUser"/>
+     </classes>
+      </test>
+      
+  
+</suite> <!-- Suite -->

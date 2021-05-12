@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Refertofriend(failed)">
+    <classes>
+      <class name="Dewsolutions.TSSS.Friends">
+        <methods>
+          <include name="close"/>
+          <include name="refer"/>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- Dewsolutions.TSSS.Friends -->
+    </classes>
+  </test> <!-- Refertofriend(failed) -->
+  <test thread-count="5" verbose="0" name="Case for Fnf(failed)" parallel="methods">
+    <classes>
+      <class name="Dewsolutions.TSSS.Negativetestcase">
+        <methods>
+          <include name="refer"/>
+        </methods>
+      </class> <!-- Dewsolutions.TSSS.Negativetestcase -->
+    </classes>
+  </test> <!-- Case for Fnf(failed) -->
+  <test thread-count="5" verbose="0" name="New user sign up(failed)" parallel="methods">
+    <classes>
+      <class name="Dewsolutions.TSSS.NewUser">
+        <methods>
+          <include name="startbrowser"/>
+        </methods>
+      </class> <!-- Dewsolutions.TSSS.NewUser -->
+    </classes>
+  </test> <!-- New user sign up(failed) -->
+</suite> <!-- Failed suite [Suite] -->
